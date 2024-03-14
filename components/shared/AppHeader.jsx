@@ -49,21 +49,27 @@ function AppHeader() {
 					<div>
 						<Link href="/">
 							{activeTheme === 'dark' ? (
-								<Image
-									src={logoDark}
-									className="w-36 cursor-pointer"
-									alt="Dark Logo"
-									width={150}
-									height={120}
-								/>
+								// <Image
+								// 	src={logoDark}
+								// 	className="w-36 cursor-pointer"
+								// 	alt="Dark Logo"
+								// 	width={150}
+								// 	height={120}
+								// />
+								<div className='text-4xl font-bold'>
+									Azwar
+								</div>
 							) : (
-								<Image
-									src={logoLight}
-									className="w-36 cursor-pointer"
-									alt="Dark Logo"
-									width={150}
-									height={120}
-								/>
+								<div className='text-4xl font-bold'>
+								Azwar
+							</div>
+								// <Image
+								// 	src={logoLight}
+								// 	className="w-36 cursor-pointer"
+								// 	alt="Dark Logo"
+								// 	width={150}
+								// 	height={120}
+								// />
 							)}
 						</Link>
 					</div>
