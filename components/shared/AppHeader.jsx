@@ -60,7 +60,7 @@ function AppHeader() {
 									Azwar
 								</div>
 							) : (
-								<div className='text-4xl font-bold'>
+								<div className='text-4xl font-bold  text-white'>
 								Azwar
 							</div>
 								// <Image
